@@ -23,6 +23,7 @@ func NewGame(players Players) []deck.Card {
 }
 
 
+
 func (p Player) DealHand(cards []deck.Card, numberOfCards int) []deck.Card{
 	deckPlayer := []deck.Card{}
 
